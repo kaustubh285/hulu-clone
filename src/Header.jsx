@@ -9,7 +9,6 @@ import "./header.css";
 
 function Header() {
   return (
-    // {" BEM naming convention "}
     <div className='header'>
       <div className='header__icons'>
         <div className='header__icon header__icon--active'>
