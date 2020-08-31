@@ -4,6 +4,7 @@
   padding-left: 20px;
   padding-right: 0px;
   overflow-x: scroll;
+  overflow-y: visible;
   word-wrap: normal;
 }
 
@@ -19,9 +20,10 @@
 }
 
 .nav > h2 {
-  font-size: large;
+  font-size: medium;
+
   margin-left: 25px;
-  margin-right: 30px;
+  margin-right: 25px;
   cursor: pointer;
   opacity: 0.7;
   transition: trasnform 50ms ease-in;
@@ -30,4 +32,9 @@
 .nav > h2:hover {
   opacity: 1;
   transform: scale(1.2);
+}
+@media only screen and (min-width: 700px) {
+  .nav {
+    padding-bottom: 25px;
+  }
 }
