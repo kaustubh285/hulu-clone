@@ -1,0 +1,47 @@
+.videoCard {
+  width: 400px;
+  color: white;
+  padding: 15px;
+  height: 350px;
+  max-width: 90vw !important;
+  transition: transform 100ms;
+}
+
+.videoCard:hover {
+  transform: scale(1.09);
+}
+
+.videoCard > img {
+  width: 400px !important;
+  max-width: 92vw !important;
+  max-width: 500px;
+  object-fit: contain;
+  width: 500px;
+}
+
+.videoCard > p,
+h2 {
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+}
+
+.movieStats {
+  display: none;
+}
+
+.movieStats > .MuiSvgIcon-root {
+  vertical-align: bottom !important;
+}
+
+.videoCard:hover .movieStats {
+  display: inline;
+}
+
+@media only screen and (max-width: 500px) {
+  .videoCard:hover {
+    transform: scale(1.02);
+  }
+  .movieStats {
+    display: inline;
+  }
+}
