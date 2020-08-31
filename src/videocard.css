@@ -1,9 +1,9 @@
 .videoCard {
   width: 400px;
   color: white;
-  padding: 25px;
+  padding: 15px;
   height: 350px;
-
+  max-width: 90vw !important;
   transition: transform 100ms;
 }
 
@@ -13,6 +13,7 @@
 
 .videoCard > img {
   width: 400px !important;
+  max-width: 92vw !important;
   max-width: 500px;
   object-fit: contain;
   width: 500px;
@@ -34,4 +35,13 @@ h2 {
 
 .videoCard:hover .movieStats {
   display: inline;
+}
+
+@media only screen and (max-width: 500px) {
+  .videoCard:hover {
+    transform: scale(1.02);
+  }
+  .movieStats {
+    display: inline;
+  }
 }
