@@ -4,6 +4,7 @@
   padding-left: 20px;
   padding-right: 0px;
   overflow-x: scroll;
+  word-wrap: normal;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
