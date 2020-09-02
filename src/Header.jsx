@@ -41,10 +41,20 @@ function Header() {
           <p>Account</p>
         </div>
       </div>
-      <img
-        src='https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png'
-        alt=''
-      />
+      <div className='author'>
+        <h4>
+          <a
+            href='https://github.com/kaustubh285'
+            target='_blank'
+            rel='noopener noreferrer'>
+            By Kaustubh Deshpande
+          </a>
+        </h4>
+        <img
+          src='https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png'
+          alt=''
+        />
+      </div>
     </div>
   );
 }

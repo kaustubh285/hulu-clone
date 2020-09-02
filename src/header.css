@@ -55,7 +55,25 @@
   cursor: pointer;
 }
 
-.header > img {
+.header > div > img {
   object-fit: contain;
   height: 80px;
+}
+
+.author {
+  display: flex;
+}
+
+.author > h4 {
+  padding-top: 10%;
+}
+
+.author > h4 > a {
+  text-decoration: none;
+  color: white;
+}
+
+.author > h4 > a:hover {
+  text-decoration: underline;
+  color: white;
 }
